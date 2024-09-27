@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "This is while loop in bash scripting"
+echo "While loop"
 
-x=1
+number=1
 
-while [ $x -le 10 ] ; do
-    echo $x
-    x=$(($x + 1))
+while [ $number -le 10 ] ; do
+    echo $number
+    number=$(( $number + 1 ))
     sleep 0.5
 done
